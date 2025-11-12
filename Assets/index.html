@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href=".\style.css">
+    <link rel="icon" type="image/png" href="/Images/images-removebg-preview.png">
+    <title>RCA-Azure</title>
+</head>
+<body>
+    <!-- TITLE -->
+    <nav>
+      <div class="navbar">
+        <h1> <img src="/Images/images-removebg-preview.png"> RCA Azure</h1>
+        <div class="nav">
+        <a href="#home">Home</a> 
+        <a href="#about">About</a> 
+        <a href="#html/css">HTML/CSS</a> 
+        <a href="#javascript">Javascript</a>
+        <a href="#projects">Projects</a>
+        </div>
+      </div>
+        
+
+    </nav>
+    <!-- MAIN INTRO -->
+    <main class="page-content" id="home">  
+        <h2 id="title">Rwanda Coding Academy</h2>
+        <p style="font-size:21px">Year 1 Technical Curriculum - Building the foundations of <br>
+            modern web development through practical application <br>
+            and real-world projects.</p>
+            <div class="actions">
+                <div class="act">
+                    <p id="para">3</p>
+                    <p>CORE TECHNOLOGIES</p>
+                </div>
+                <div class="act">
+                    <p id="para">12+</p>
+                    <p>PROJECTS BUILT</p>
+                </div>
+                <div class="act">
+                    <p id="para">500+</p>
+                    <p>HOURS CODED</p>
+                </div>
+            </div>
+    </main>
+    <!-- OUR CURRICULUM -->
+     <p id="about"></p>
+    <section class="boxes">
+        <div class="intro">
+            <h2 id="our">Our Curriculum</h2>
+        <p>Comprehensive web development training covering frontend fundamentals</p>
+        </div>
+        <div class="container">
+            <div class="html">
+                <h2>HTML5 Mastery</h2>
+                <p>Semantic markup, accessibility<br>
+                     standards, forms, and modern <br>
+                     HTML5 APIs. Building structured,<br>
+                      meaningful web content.</p>
+                     <div class="container2">
+                         <p id="is">Semantic HTML</p>
+                      <p id="is"> Forms </p>
+                     </div>
+            </div>
+            <div class="css">
+                <h2>CSS3 & Design</h2>
+                <p>Advanced styling with Flexbox,<br>
+                     Grid, animations, responsive<br>
+                      design, and modern layout<br>
+                     techniques.</p>
+                    <div class="container2">
+                         <p id="is">Flexbox </p>
+                     <p id="is">Grid </p>
+                     <p id="is">Responsive </p>
+                    </div>
+            </div>
+            <div class="javascript">
+                <h2>JavaScript Programming</h2>
+                <p>Core programming concepts, <br>
+                    DOM manipulation, event <br>
+                    handling, and interactive web<br>
+                     applications.</p>
+                    <div class="container2">
+                         <p id="is">ES6+ </p>
+                     <p id="is">DOM </p>
+                     <p id="is">Events </p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- HTML & CSS IMPLEMENTATION -->
+    <section class="html_css_implementation" id="html/css">
+        <div class="intro1">
+            <h2 id="our">HTML & CSS Implementation</h2>
+            <p>This entire page demonstrates responsive layout, grid systems, and modern CSS</p>
+        </div>
+        <div class="container1">
+            <div class="responsiveness">
+            <h2>Responsive Navigation</h2>
+            <p>Fixed navbar with smooth <br>
+                scrolling and backdrop blur effect,<br>
+                 adapting to screen sizes.</p>
+        </div>
+        <div class="grid">
+            <h2>CSS Grid Layouts</h2>
+            <p>Auto-fit grid system ensuring <br>
+                content flows naturally across all <br>
+                viewports.</p>
+        </div>
+        <div class="animations">
+            <h2>Modern Animations</h2>
+            <p>Hover effects, transitions, and<br>
+                 transforms creating smooth user<br>
+                  interactions.</p>
+        </div>
+        <div class="spacing">
+            <h2>Typography & Spacing</h2>
+            <p>Professional typography scale <br>
+                with consistent spacing and visual <br>
+                hierarchy.</p>
+        </div>
+        </div>
+    </section>
+    <!-- JAVASCRIPT APPLICATIONS -->
+    <section class="js_applications" id="javascript">
+        <div class="intro1">
+            <h2>JavaScript Applications</h2>
+            <p>Interactive calculator demonstrating DOM manipulation and event handling</p>
+        </div>
+        <!-- The calculator -->
+        <div class="calculator">
+           <div class="buttons">
+            <div class="item one" id="display">0</div>
+             <button class="item two" onclick="clearDisplay()">C</button>
+            <button class="item three operator" onclick="press('/')">/</button>
+            <button class="item four operator" onclick="press('*')">*</button>
+            <button class="item five"  onclick="press('7')">7</button>
+            <button class="item six"  onclick="press('8')">8</button>
+            <button class="item seven" onclick="press('9')">9</button>
+            <button class="item eight operator"  onclick="press('-')">-</button>
+            <button class="item nine"  onclick="press('4')">4</button>
+            <button class="item ten"  onclick="press('5')">5</button>
+            <button class="item twelve" onclick="press('6')">6</button>
+            <button class="item thirteen operator"  onclick="press('+')">+</button>
+            <button class="item fourteen" onclick="press('1')">1</button>
+            <button class="item fifteen" onclick="press('2')">2</button>
+            <button class="item sixteen" onclick="press('3')">3</button>
+            <button class="item seventeen" onclick="press('.')">.</button>
+            <button class="item eighteen" onclick="press('0')">0</button>
+            <button class="item nineteen operator" onclick="calculate()">=</button>
+            <button class="item twenty operator"  onclick="press('%')">%</button>
+           </div>
+        </div>
+    </section>
+    <!-- INTERACTIVE DOM CONTROL -->
+     <section class="dom_control" id="projects">
+        <div class="intro1">
+            <h2>Interactive DOM Control</h2>
+            <p>Real-time element manipulation using JavaScript</p>
+        </div>
+        <!--DOM ELEMENT -->
+        <div class="dom_element">
+                <div class="container0">
+                    <div class="shape-box" id="shapeBox"></div>
+                </div>                
+        <div class="controls">
+            <h2>DOM Manipulation Controls</h2>
+            <div class="tools">
+                <p>Transform Properties</p>
+                <div class="toolbox">
+            <button class="control-btn" onclick="rotateShape()">Rotate</button>
+            <button class="control-btn" onclick="scaleShape()">Scale</button>
+            <button class="control-btn" onclick="resetShape()">Reset</button>
+                </div>
+            </div>
+            <div class="tools">
+                <p>Color Properties</p>
+         <div class="toolbox">
+            <button class="control-btn" onclick="changeColor('black')">Black</button>
+            <button class="control-btn" onclick="changeColor('white')">White</button>
+            <button class="control-btn" onclick="changeColor('#333')">Gray</button>
+         </div>
+            </div>
+            <div class="tools">
+                 <p>Border Radius</p>
+                <div class="toolbox">
+                <button class="control-btn" onclick="changeBorder('0')">Square</button>
+                <button class="control-btn" onclick="changeBorder('10%')">Circle</button>
+                </div>
+            </div>
+        </div>
+        </div>
+     </section>
+     <footer id="foot">
+        <p>&copy Rwanda Coding Academy - Year 1 Curriculum Showcase</p>
+        <p>Kigali, Rwanda</p>
+     </footer>
+     <script src="javascript.js"></script>
+</body>
+</html>
